@@ -1,0 +1,136 @@
+:root{
+    --primarycolor: #ff274b;
+    --secondarycolor: #f7bcf7;
+    --lightcolor : #ffffff;
+    --bgcolor-1: #171a1c;
+    --bgcolor-2: #22282a;
+    --padding: 8%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: var(--primarycolor);
+}
+
+nav{
+    padding-top: 2.2rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+
+.btn{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+
+.content{
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.content text{
+    position: relative;
+    bottom: 70px;
+}
+
+h1{
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 3.5rem;
+    color: #ffffff;
+}
+
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: var(--secondarycolor);
+}
+
+.social{
+    margin-top: 3.5rem;
+}
+
+.social img{
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+
+.content-images{
+    width: 45%;
+    height: 90%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.content-images img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 90%;
+    transition: bottom 0.4s, left 1s;
+}
+
+.content-images:hover{
+    bottom: 40px;
+    left: 40px;
+}

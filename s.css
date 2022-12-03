@@ -1,0 +1,70 @@
+body{
+    background-color:#22282a;
+}
+
+.from{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 23, 3);
+    max-width: 10rem;
+    margin-left: 36rem;
+    align-items: center;
+    padding: 8rem;
+    border-color: rgba(238, 228, 228, 0.973);
+    margin-top: -4rem;
+}
+
+.from h2{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2{
+    background-color: #ff274b;
+    border: 60rem;
+
+}
+
+h2{
+    font-size: 4rem;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 2em;
+    margin-inline-end: -2.5em;
+    margin-inline-start: -2.5em;
+    font-weight: bold;
+}
+
+input{
+    font-size: 1.5rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-end: 3.5rem;
+    margin-inline-start: -4.1rem;
+    align-items: center;
+}
+
+.from input{
+    position: relative;
+    bottom: 30px;
+    align-items: center;
+}
+
+.btn{
+    background-color:#ff274b;
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.81rem 1.87rem;
+    border-radius: 40px;
+    transition: 0.4s;
+    bottom: -2rem;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff blanchedalmond;
+}
